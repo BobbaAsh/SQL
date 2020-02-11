@@ -1,0 +1,1 @@
+SELECT LEFT(name,3)  FROM category;
