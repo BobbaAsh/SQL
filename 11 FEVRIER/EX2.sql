@@ -1,3 +1,4 @@
+USE sakila;
 SELECT AVG(DATEDIFF( r.return_date, r.rental_date )) AS avg_time FROM actor as A
 LEFT JOIN film_actor as FA ON A.actor_id = FA.actor_id
 LEFT JOIN film AS F on FA.film_id = F.film_id
